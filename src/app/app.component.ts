@@ -16,4 +16,6 @@ export class AppComponent {
   onSave($event){    
     console.log("Save button is clicked!", $event);    
   }    
+
+  fullName: string = "Hello JavaTpoint";    
 }
