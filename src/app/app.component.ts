@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular8project';
+
+  numberA: number = 10;
+  numberB: number = 20;
 }
