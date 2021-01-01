@@ -12,4 +12,8 @@ export class AppComponent {
   numberB: number = 20;
 
   imgUrl = "https://static.javatpoint.com/tutorial/angular7/images/angular-7-logo.png";    
+
+  onSave($event){    
+    console.log("Save button is clicked!", $event);    
+  }    
 }
