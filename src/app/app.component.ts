@@ -10,4 +10,6 @@ export class AppComponent {
 
   numberA: number = 10;
   numberB: number = 20;
+
+  imgUrl = "https://static.javatpoint.com/tutorial/angular7/images/angular-7-logo.png";    
 }
